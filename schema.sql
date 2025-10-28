@@ -1,4 +1,3 @@
-psql -U "postgres" "junior_backend_task"
 CREATE TABLE categories (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
